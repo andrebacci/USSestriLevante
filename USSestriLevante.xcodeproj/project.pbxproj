@@ -14,6 +14,8 @@
 		1559D1BF225D02E900C70909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1559D1BD225D02E900C70909 /* LaunchScreen.storyboard */; };
 		1559D1CA225D02ED00C70909 /* USSestriLevanteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1559D1C9225D02ED00C70909 /* USSestriLevanteTests.swift */; };
 		1559D1D5225D02ED00C70909 /* USSestriLevanteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1559D1D4225D02ED00C70909 /* USSestriLevanteUITests.swift */; };
+		1559D1E5225D06DF00C70909 /* FirstTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1559D1E4225D06DF00C70909 /* FirstTeam.swift */; };
+		1559D1E7225D0F5B00C70909 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1559D1E6225D0F5B00C70909 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1559D1D0225D02ED00C70909 /* USSestriLevanteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = USSestriLevanteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1559D1D4225D02ED00C70909 /* USSestriLevanteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USSestriLevanteUITests.swift; sourceTree = "<group>"; };
 		1559D1D6225D02ED00C70909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1559D1E4225D06DF00C70909 /* FirstTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTeam.swift; sourceTree = "<group>"; };
+		1559D1E6225D0F5B00C70909 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,8 @@
 		1559D1B3225D026900C70909 /* USSestriLevante */ = {
 			isa = PBXGroup;
 			children = (
-				1559D1B4225D026A00C70909 /* AppDelegate.swift */,
-				1559D1B6225D026A00C70909 /* ViewController.swift */,
+				1559D1E3225D05B200C70909 /* Model */,
+				1559D1E2225D059F00C70909 /* Controller */,
 				1559D1B8225D026B00C70909 /* Main.storyboard */,
 				1559D1BB225D02E900C70909 /* Assets.xcassets */,
 				1559D1BD225D02E900C70909 /* LaunchScreen.storyboard */,
@@ -123,6 +127,24 @@
 				1559D1D6225D02ED00C70909 /* Info.plist */,
 			);
 			path = USSestriLevanteUITests;
+			sourceTree = "<group>";
+		};
+		1559D1E2225D059F00C70909 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1559D1B4225D026A00C70909 /* AppDelegate.swift */,
+				1559D1B6225D026A00C70909 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1559D1E3225D05B200C70909 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1559D1E4225D06DF00C70909 /* FirstTeam.swift */,
+				1559D1E6225D0F5B00C70909 /* Player.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1559D1E7225D0F5B00C70909 /* Player.swift in Sources */,
 				1559D1B7225D026A00C70909 /* ViewController.swift in Sources */,
 				1559D1B5225D026A00C70909 /* AppDelegate.swift in Sources */,
+				1559D1E5225D06DF00C70909 /* FirstTeam.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
