@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     // Method that deserialize json
     @IBAction func load(_ sender: Any) {
-        let urlJson = "http://www.usdsestrilevante.it/vecchioSito/Andre/firstTeam.json"
+        let urlJson = "http://www.usdsestrilevante.it/app_ios/json/firstTeam.json"
         let url = URL(string: urlJson)
         
         _ = URLSession.shared.dataTask(with: url!) {(data, response, error) in
