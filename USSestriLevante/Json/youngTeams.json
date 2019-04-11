@@ -1,0 +1,46 @@
+{
+    "Squadre": [
+        {
+            "Category": "Juniores",
+            "Staff": [
+                {
+                    "Name": "Augusto",
+                    "Surname": "Podestà",
+                    "Born": 1961,
+                    "Image": "",
+                    "Role": "Allenatore"                 
+                }
+            ],
+            "Players": [
+                {
+                    "Name": "Alessandro",
+                    "Surname": "Cardella",
+                    "Born": 2001,
+                    "Image": "",
+                    "Role": "Difensore"             
+                }
+            ] 
+        },
+        {
+            "Category": "Allievi",
+            "Staff": [
+                {
+                    "Name": "Daniele",
+                    "Surname": "Sanguineti",
+                    "Born": 1961,
+                    "Image": "",
+                    "Role": "Allenatore"                 
+                }
+            ],
+            "Players": [
+                {
+                    "Name": "Nome",
+                    "Surname": "Cognome",
+                    "Born": 2002,
+                    "Image": "",
+                    "Role": "Portiere"             
+                }
+            ] 
+        }
+    ]
+}

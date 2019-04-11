@@ -16,6 +16,11 @@
 		1559D1D5225D02ED00C70909 /* USSestriLevanteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1559D1D4225D02ED00C70909 /* USSestriLevanteUITests.swift */; };
 		1559D1E5225D06DF00C70909 /* FirstTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1559D1E4225D06DF00C70909 /* FirstTeam.swift */; };
 		1559D1E7225D0F5B00C70909 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1559D1E6225D0F5B00C70909 /* Player.swift */; };
+		15B0CFF6225E70330008F35F /* news.json in Resources */ = {isa = PBXBuildFile; fileRef = 15B0CFF1225E702A0008F35F /* news.json */; };
+		15B0CFF7225E70330008F35F /* programGames.json in Resources */ = {isa = PBXBuildFile; fileRef = 15B0CFF2225E70320008F35F /* programGames.json */; };
+		15B0CFF8225E70330008F35F /* organizationChart.json in Resources */ = {isa = PBXBuildFile; fileRef = 15B0CFF3225E70330008F35F /* organizationChart.json */; };
+		15B0CFF9225E70330008F35F /* firstTeam.json in Resources */ = {isa = PBXBuildFile; fileRef = 15B0CFF4225E70330008F35F /* firstTeam.json */; };
+		15B0CFFA225E70330008F35F /* youngTeams.json in Resources */ = {isa = PBXBuildFile; fileRef = 15B0CFF5225E70330008F35F /* youngTeams.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		1559D1D6225D02ED00C70909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1559D1E4225D06DF00C70909 /* FirstTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTeam.swift; sourceTree = "<group>"; };
 		1559D1E6225D0F5B00C70909 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		15B0CFF1225E702A0008F35F /* news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = news.json; sourceTree = "<group>"; };
+		15B0CFF2225E70320008F35F /* programGames.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = programGames.json; sourceTree = "<group>"; };
+		15B0CFF3225E70330008F35F /* organizationChart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = organizationChart.json; sourceTree = "<group>"; };
+		15B0CFF4225E70330008F35F /* firstTeam.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = firstTeam.json; sourceTree = "<group>"; };
+		15B0CFF5225E70330008F35F /* youngTeams.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = youngTeams.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,7 @@
 		1559D1B3225D026900C70909 /* USSestriLevante */ = {
 			isa = PBXGroup;
 			children = (
+				15B0CFF0225E6FEC0008F35F /* Json */,
 				1559D1E3225D05B200C70909 /* Model */,
 				1559D1E2225D059F00C70909 /* Controller */,
 				1559D1B8225D026B00C70909 /* Main.storyboard */,
@@ -145,6 +156,18 @@
 				1559D1E6225D0F5B00C70909 /* Player.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		15B0CFF0225E6FEC0008F35F /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				15B0CFF4225E70330008F35F /* firstTeam.json */,
+				15B0CFF1225E702A0008F35F /* news.json */,
+				15B0CFF3225E70330008F35F /* organizationChart.json */,
+				15B0CFF2225E70320008F35F /* programGames.json */,
+				15B0CFF5225E70330008F35F /* youngTeams.json */,
+			);
+			path = Json;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,8 +275,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1559D1BF225D02E900C70909 /* LaunchScreen.storyboard in Resources */,
+				15B0CFF8225E70330008F35F /* organizationChart.json in Resources */,
 				1559D1BC225D02E900C70909 /* Assets.xcassets in Resources */,
+				15B0CFFA225E70330008F35F /* youngTeams.json in Resources */,
+				15B0CFF9225E70330008F35F /* firstTeam.json in Resources */,
+				15B0CFF6225E70330008F35F /* news.json in Resources */,
 				1559D1BA225D026B00C70909 /* Main.storyboard in Resources */,
+				15B0CFF7225E70330008F35F /* programGames.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

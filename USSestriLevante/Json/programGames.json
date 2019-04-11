@@ -1,0 +1,35 @@
+{
+    "Games": [
+        {
+            "Category": "Serie D",
+            "Type": "Campionato",
+            "Home": "Arconatese",
+            "Away": "Sestri Levante",            
+            "Score": "3-1",
+            "Date": "06/04/2019",
+            "Location": "Stadio ... di Arconate",
+            "ImageHome": "",
+            "ImageAway": ""
+        },
+        {
+            "Category": "Juniores",
+            "Home": "Massese",
+            "Away": "Sestri Levante",            
+            "Score": "3-1",
+            "Date": "06/04/2019",
+            "Location": "Stadio ... di Massa",
+            "ImageHome": "",
+            "ImageAway": ""
+        },
+        {
+            "Category": "Allievi",
+            "Home": "Real Fieschi",
+            "Away": "Sestri Levante",
+            "Score": "1-3",
+            "Date": "07/04/2019",
+            "Location": "Campo Comunale di San Salvatore",
+            "ImageHome": "",
+            "ImageAway": ""
+        }
+    ]
+}
