@@ -11,10 +11,23 @@ import Foundation
 class FirstTeam {
     var season: String = ""
     var players = [Player]()
+    var staff = [Staff]()
     
     init?(json: [String: Any]) {
         season = (json["Season"] as? String)!
         
-        let team = json["Players"]
+        for item in (json["Players"] as? [[String: Any]])! {
+            if let player = Player(json: item) {
+                players.append(player)
+            }
+        }
+        
+        for item in (json["Staff"] as? [[String: Any]])! {
+            if let staffMember = Staff(json: item) {
+                staff.append(staffMember)
+            }
+        }
+        
+        var andre = 0
     }
 }

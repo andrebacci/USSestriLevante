@@ -19,7 +19,7 @@ class Player {
         name = (json["Name"] as? String)!
         surname = (json["Surname"] as? String)!
         born = (json["Born"] as? Int)!
-        urlImage = (json["UrlImage"] as? String)!
+        urlImage = (json["Image"] as? String)!
         role = (json["Role"] as? String)!
     }
 }

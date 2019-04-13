@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1559D1B5225D026A00C70909 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1559D1B4225D026A00C70909 /* AppDelegate.swift */; };
-		1559D1B7225D026A00C70909 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1559D1B6225D026A00C70909 /* ViewController.swift */; };
+		1559D1B7225D026A00C70909 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1559D1B6225D026A00C70909 /* HomeController.swift */; };
 		1559D1BA225D026B00C70909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1559D1B8225D026B00C70909 /* Main.storyboard */; };
 		1559D1BC225D02E900C70909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1559D1BB225D02E900C70909 /* Assets.xcassets */; };
 		1559D1BF225D02E900C70909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1559D1BD225D02E900C70909 /* LaunchScreen.storyboard */; };
@@ -16,6 +16,10 @@
 		1559D1D5225D02ED00C70909 /* USSestriLevanteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1559D1D4225D02ED00C70909 /* USSestriLevanteUITests.swift */; };
 		1559D1E5225D06DF00C70909 /* FirstTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1559D1E4225D06DF00C70909 /* FirstTeam.swift */; };
 		1559D1E7225D0F5B00C70909 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1559D1E6225D0F5B00C70909 /* Player.swift */; };
+		157557802261F3870086B7D0 /* OrganizationMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1575577C2261F3860086B7D0 /* OrganizationMember.swift */; };
+		157557812261F3870086B7D0 /* OrganizationChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1575577D2261F3860086B7D0 /* OrganizationChart.swift */; };
+		157557822261F3870086B7D0 /* YoungTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1575577E2261F3860086B7D0 /* YoungTeam.swift */; };
+		157557832261F3870086B7D0 /* Staff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1575577F2261F3860086B7D0 /* Staff.swift */; };
 		15B0CFF6225E70330008F35F /* news.json in Resources */ = {isa = PBXBuildFile; fileRef = 15B0CFF1225E702A0008F35F /* news.json */; };
 		15B0CFF7225E70330008F35F /* programGames.json in Resources */ = {isa = PBXBuildFile; fileRef = 15B0CFF2225E70320008F35F /* programGames.json */; };
 		15B0CFF8225E70330008F35F /* organizationChart.json in Resources */ = {isa = PBXBuildFile; fileRef = 15B0CFF3225E70330008F35F /* organizationChart.json */; };
@@ -43,7 +47,7 @@
 /* Begin PBXFileReference section */
 		1559D1B1225D026900C70909 /* USSestriLevante.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USSestriLevante.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1559D1B4225D026A00C70909 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1559D1B6225D026A00C70909 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1559D1B6225D026A00C70909 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		1559D1B9225D026B00C70909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1559D1BB225D02E900C70909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1559D1BE225D02E900C70909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +60,10 @@
 		1559D1D6225D02ED00C70909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1559D1E4225D06DF00C70909 /* FirstTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTeam.swift; sourceTree = "<group>"; };
 		1559D1E6225D0F5B00C70909 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		1575577C2261F3860086B7D0 /* OrganizationMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationMember.swift; sourceTree = "<group>"; };
+		1575577D2261F3860086B7D0 /* OrganizationChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationChart.swift; sourceTree = "<group>"; };
+		1575577E2261F3860086B7D0 /* YoungTeam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoungTeam.swift; sourceTree = "<group>"; };
+		1575577F2261F3860086B7D0 /* Staff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Staff.swift; sourceTree = "<group>"; };
 		15B0CFF1225E702A0008F35F /* news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = news.json; sourceTree = "<group>"; };
 		15B0CFF2225E70320008F35F /* programGames.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = programGames.json; sourceTree = "<group>"; };
 		15B0CFF3225E70330008F35F /* organizationChart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = organizationChart.json; sourceTree = "<group>"; };
@@ -144,7 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				1559D1B4225D026A00C70909 /* AppDelegate.swift */,
-				1559D1B6225D026A00C70909 /* ViewController.swift */,
+				1559D1B6225D026A00C70909 /* HomeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -153,7 +161,11 @@
 			isa = PBXGroup;
 			children = (
 				1559D1E4225D06DF00C70909 /* FirstTeam.swift */,
+				1575577D2261F3860086B7D0 /* OrganizationChart.swift */,
+				1575577C2261F3860086B7D0 /* OrganizationMember.swift */,
 				1559D1E6225D0F5B00C70909 /* Player.swift */,
+				1575577F2261F3860086B7D0 /* Staff.swift */,
+				1575577E2261F3860086B7D0 /* YoungTeam.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -307,7 +319,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1559D1E7225D0F5B00C70909 /* Player.swift in Sources */,
-				1559D1B7225D026A00C70909 /* ViewController.swift in Sources */,
+				157557812261F3870086B7D0 /* OrganizationChart.swift in Sources */,
+				157557832261F3870086B7D0 /* Staff.swift in Sources */,
+				157557802261F3870086B7D0 /* OrganizationMember.swift in Sources */,
+				157557822261F3870086B7D0 /* YoungTeam.swift in Sources */,
+				1559D1B7225D026A00C70909 /* HomeController.swift in Sources */,
 				1559D1B5225D026A00C70909 /* AppDelegate.swift in Sources */,
 				1559D1E5225D06DF00C70909 /* FirstTeam.swift in Sources */,
 			);

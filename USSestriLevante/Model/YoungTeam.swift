@@ -9,14 +9,9 @@
 import Foundation
 
 class YoungTeam {
-    var category: String = ""    
-    var players = [Players]()
-    var staff = [Staff]()
+    
     
     init?(json: [String: Any]) {
-        name = (json["Name"] as? String)!
 
-        let players = json["Players"]
-        let staff = json["Staff"]
     }
 }

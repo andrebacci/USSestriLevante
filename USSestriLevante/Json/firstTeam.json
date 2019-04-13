@@ -1,28 +1,30 @@
-{
-    "Season": "2018/2019",
-    "Players": [
-        {
-            "Name": "Davide",
-            "Surname": "Adornato",
-            "Born": 1989,
-            "Image": "",
-            "Role": "Portiere"
-        },
-        {
-            "Name": "Aaron",
-            "Surname": "Confortini",
-            "Born": 1993,
-            "Image": "",
-            "Role": "Portiere"
-        }
-    ],
-    "Staff": [
-        {
-            "Name": "Costanzo",
-            "Surname": "Celestini",
-            "Born": 1961,
-            "Image": "",
-            "Role": "Allenatore"
-        }
-    ]
-}
+[
+    {
+        "Season": "2018/2019",
+        "Players": [
+            {
+                "Name": "Davide",
+                "Surname": "Adornato",
+                "Born": 1989,
+                "Image": "",
+                "Role": "Portiere"
+            },
+            {
+                "Name": "Aaron",
+                "Surname": "Confortini",
+                "Born": 1993,
+                "Image": "",
+                "Role": "Portiere"
+            }
+        ],
+        "Staff": [
+            {
+                "Name": "Costanzo",
+                "Surname": "Celestini",
+                "Born": 1961,
+                "Image": "",
+                "Role": "Allenatore"
+            }
+        ]
+    }
+]
